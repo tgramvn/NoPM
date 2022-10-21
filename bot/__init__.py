@@ -85,7 +85,7 @@ ONLINE_CHECK_START_TEXT = get_config(
 DELETED_MESSAGES_NOTIFICATION_TEXT = get_config(
     "DELETED_MESSAGES_NOTIFICATION_TEXT",
     (
-        "**❌ Tin nhắn đã bị xóa**"
+        "<b>❌ Tin nhắn đã bị xóa.</b>"
     )
 )
 # IDEKWBYRW
