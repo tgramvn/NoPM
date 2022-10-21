@@ -73,5 +73,5 @@ async def ban_command(client: Client, message: Message):
     await message.reply_text(
         f"<a href='tg://user?id={user_id}'>"
         "❌ Người dùng"
-        "</a> <b>đã bị cấm</b> <i>vĩnh viễn</i>."
+        "</a> <b>đã bị cấm</b> vĩnh viễn."
     )
