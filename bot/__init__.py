@@ -61,19 +61,11 @@ UN_BAN_COMMAND = get_config("UN_BAN_COMMAND", "unban")
 # start command
 START_COMMAND = get_config("START_COMMAND", "start")
 # broadcast command
-BROADCAST_COMMAND = get_config("BROADCAST_COMMAND", "broadcast")
+BROADCAST_COMMAND = get_config("BROADCAST_COMMAND", "send")
 # default message in-case of None types
 DEFAULT_START_TEXT = (
-    "Hi. ☺️\n"
-    "Thank you for using me 😬\n\n"
-    "This is an Open Source Project available on "
-    "https://github.com/SpEcHIDe/NoPMsBot\n\n\n"
-    "If you are the owner of this bot, "
-    "and are seeing this message 🤦‍♂️, "
-    "means that you have not set up "
-    "the ENVironment variables properly "
-    "for the bot to function.\n\n\n"
-    "ℹ️ Subscribe @SpEcHlDe if you 😍 using this bot❗️❣️"
+    "**Hi bro... ☺️**\n"
+    "**Tôi có thể giúp gì cho bạn? 😬**"
 )
 # /start message when other users start your bot
 START_OTHER_USERS_TEXT = int(get_config(
@@ -84,11 +76,8 @@ START_OTHER_USERS_TEXT = int(get_config(
 ONLINE_CHECK_START_TEXT = get_config(
     "ONLINE_CHECK_START_TEXT",
     (
-        "i am online <b>master</b>\n\n"
-        "This is an Open Source Project available on "
-        "https://github.com/SpEcHiDe/NoPMsBot\n\n\n"
-        "ℹ️ Subscribe @SpEcHlDe if you 😍 using this bot❗️❣️"
-    )
+        "✅ <b>Đang hoạt động</b>"
+     )
 )
 # message to indicate,
 # if any message was deleted by the user
@@ -96,10 +85,7 @@ ONLINE_CHECK_START_TEXT = get_config(
 DELETED_MESSAGES_NOTIFICATION_TEXT = get_config(
     "DELETED_MESSAGES_NOTIFICATION_TEXT",
     (
-        "this message was deleted\n\n"
-        "This is an Open Source Project available on "
-        "https://github.com/SpEcHiDe/NoPMsBot\n\n\n"
-        "ℹ️ Subscribe @SpEcHlDe if you 😍 using this bot❗️❣️"
+        "**❌ Tin nhắn đã bị xóa**"
     )
 )
 # IDEKWBYRW
@@ -111,8 +97,8 @@ DERP_USER_S_TEXT = get_config(
 IS_BLACK_LIST_ED_MESSAGE_TEXT = get_config(
     "IS_BLACK_LIST_ED_MESSAGE_TEXT",
     (
-        "You have been <b>banned</b> forever.\n\n"
-        "<u>Reason</u>: <code>{reason}</code>"
+        "❌ Bạn đã bị <b>cấm</b> vĩnh viễn.\n\n"
+        "<u>Lý do</u>: <code>{reason}</code>"
     )
 )
 # IDEKWBYRW
@@ -124,14 +110,14 @@ REASON_DE_LIMIT_ER = get_config(
 IS_UN_BANED_MESSAGE_TEXT = get_config(
     "IS_UN_BANED_MESSAGE_TEXT",
     (
-        "You have been <b>un-banned</b>.\n\n"
-        "<u>Reason</u>: <code>{reason}</code>"
+        "✅ Bạn đã được <b>bỏ cấm</b>.\n\n"
+        "<u>Lý do</u>: <code>{reason}</code>"
     )
 )
 # message to show if bot was blocked by user
 BOT_WS_BLOCKED_BY_USER = get_config(
     "BOT_WS_BLOCKED_BY_USER",
-    "Bot was blocked by the user."
+    "Bot đã bị chặn bởi người dùng."
 )
 # path to store LOG files
 LOG_FILE_ZZGEVC = get_config("LOG_FILE_ZZGEVC", "NoPMsBot.log")
